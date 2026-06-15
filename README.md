@@ -1,8 +1,8 @@
-# 🏃 Health Tracker
+# Health Tracker
 
 A full-featured daily health tracking app with dark/light mode, aurora transition effect, habit management, analytics dashboard, and GitHub-style activity grid.
 
-## ✨ Features
+##  Features
 - Dark / Light mode with flowing aurora animation on toggle
 - Dashboard carousel — Overview + Analytics slides
 - Habit tick boxes: Done / Not Done / Empty
@@ -15,7 +15,7 @@ A full-featured daily health tracking app with dark/light mode, aurora transitio
 
 ---
 
-## 🚀 Deploy to Vercel via GitHub (step by step)
+##  Deploy to Vercel via GitHub (step by step)
 
 ### Step 1 — Create GitHub repository
 1. Go to [github.com](https://github.com) → Sign in
@@ -46,11 +46,11 @@ Click **"Commit changes"**
 2. Click **"Add New Project"**
 3. Import your `health-tracker` repository
 4. Vercel auto-detects Vite — click **"Deploy"**
-5. ✅ Done! Your app is live in ~60 seconds
+5. Done! Your app is live in ~60 seconds
 
 ---
 
-## 💻 Run locally
+## Run locally
 
 ```bash
 npm install
@@ -59,7 +59,7 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173)
 
-## 📦 Build for production
+## Build for production
 
 ```bash
 npm run build
