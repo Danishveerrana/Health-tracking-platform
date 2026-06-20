@@ -984,6 +984,7 @@ function DataTable({ monthDays, allData, habits, todayKey, T, isDark }) {
 // MAIN APP
 // ═══════════════════════════════════════════════════════════════════
 export default function HealthTracker() {
+  useHealthNotifications();
   const [isDark, setIsDark] = useState(() => {
     try { return localStorage.getItem("ht_theme") !== "light"; } catch { return true; }
   });
