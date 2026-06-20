@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect, useMemo, useRef, useCallback, useHealthNotifications(); } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { useHealthNotifications, requestNotificationPermission } from './useHealthNotifications';
 import React from "react";
 import { useState, useEffect, useMemo, useRef, useCallback, useHealthNotifications(); } from "react";
