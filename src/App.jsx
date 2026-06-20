@@ -1,7 +1,47 @@
+import React from "react";
+import { useState, useEffect, useMemo, useRef, useCallback, useHealthNotifications(); } from "react";
 import { useHealthNotifications, requestNotificationPermission } from './useHealthNotifications';
 import React from "react";
 import { useState, useEffect, useMemo, useRef, useCallback, useHealthNotifications(); } from "react";
 
+// ═══════════════════════════════════════════════════════════════════
+// THEME SYSTEM
+// ═══════════════════════════════════════════════════════════════════
+const THEMES = {
+  dark: {
+    bg: "#0A0C12",
+    card: "#10131E",
+    cardAlt: "#13172A",
+    border: "#1E2340",
+    borderStrong: "#2A3060",
+    muted: "#38446A",
+    dim: "#5A6A9A",
+    text: "#E8EDF8",
+    textSub: "#8A9AC8",
+    accent: "#7C6FFF",
+    green: "#1DFFA8",
+    red: "#FF4D6A",
+    amber: "#FFB347",
+    pink: "#FF6EE8",
+    cyan: "#38E8FF",
+    accentBg: "#7C6FFF18",
+    greenBg: "#1DFFA808",
+    redBg: "#FF4D6A08",
+    toggleBg: "#1E2340",
+    shadow: "0 0 0 1px #1E2340",
+    gradTop: "linear-gradient(180deg,#13172A 0%,#0A0C12 100%)",
+  },
+  light: {
+    bg: "#F0EEF8",
+    card: "#FAFAF8",
+    cardAlt: "#F5F3FF",
+    border: "#DDD9F0",
+    borderStrong: "#C4BEE8",
+    muted: "#A09CC8",
+    dim: "#7870A8",
+    text: "#1A1730",
+    textSub: "#504888",
+    accent: "#6C5CE7",
 // ═══════════════════════════════════════════════════════════════════
 // THEME SYSTEM
 // ═══════════════════════════════════════════════════════════════════
